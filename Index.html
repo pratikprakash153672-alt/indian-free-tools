@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Indian Free Tools - Free Online Tools</title>
+  <meta name="description" content="Free online tools for students, creators and everyday users.">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <h1>🇮🇳 Indian Free Tools</h1>
+      <p>Simple, fast and free online tools</p>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="hero">
+      <h2>Free Online Tools</h2>
+      <p>Useful tools that work directly in your browser.</p>
+    </section>
+
+    <section class="tools">
+
+      <div class="tool-card">
+        <h3>🧮 Percentage Calculator</h3>
+        <p>Calculate percentages quickly.</p>
+        <a href="#percentage">Open Tool →</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>🔢 Age Calculator</h3>
+        <p>Calculate your exact age.</p>
+        <a href="#age">Open Tool →</a>
+      </div>
+
+      <div class="tool-card">
+        <h3>📝 Word Counter</h3>
+        <p>Count words and characters.</p>
+        <a href="#words">Open Tool →</a>
+      </div>
+
+    </section>
+
+    <section id="percentage" class="calculator">
+      <h2>Percentage Calculator</h2>
+
+      <input id="percent" type="number" placeholder="Percentage">
+      <input id="number" type="number" placeholder="Number">
+
+      <button onclick="calculatePercentage()">Calculate</button>
+
+      <p id="percentageResult"></p>
+    </section>
+
+    <section id="age" class="calculator">
+      <h2>Age Calculator</h2>
+
+      <input id="birthDate" type="date">
+
+      <button onclick="calculateAge()">Calculate Age</button>
+
+      <p id="ageResult"></p>
+    </section>
+
+    <section id="words" class="calculator">
+      <h2>Word Counter</h2>
+
+      <textarea id="textInput" placeholder="Type or paste your text here..."></textarea>
+
+      <button onclick="countWords()">Count</button>
+
+      <p id="wordResult"></p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Indian Free Tools</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
